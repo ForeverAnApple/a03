@@ -1,6 +1,6 @@
 
 /**
- * Simple tic-tac-toe game starter. 
+ * Simple tic-tac-toe game example. 
  */
 const game = (function () {
 

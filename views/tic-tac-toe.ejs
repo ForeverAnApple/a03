@@ -1,7 +1,12 @@
 <% include header %>
- 
-  <h2>Tic-Tac-Toe</h2>
-  <main id='main-game'>
+
+<link rel="stylesheet" href="css/game.css">
+
+<body>
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <main>
     <section id="upper-left"> </section>
     <section id="upper-mid"> </section>
     <section id="upper-right"> </section>
@@ -15,7 +20,7 @@
     <section id="lower-right"> </section>
   </main>
   <aside>
-    <h2>Specification</h2>
+    <h1>Specification</h1>
     <section>
       <ul>
         <li>Uses full-width header and footer.</li>
@@ -33,5 +38,7 @@
     </section>
   </aside>
 
-  <script src="js/game.js"></script>
-  <% include footer %>
+  <script src="js/game.js" defer></script>
+</body>
+
+<% include footer %>

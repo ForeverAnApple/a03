@@ -1,0 +1,60 @@
+html{
+	background-color: #fff;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+
+}
+
+.section-header{
+	font-size: 60px;
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+#current-section:hover, #past-section:hover, #future-section:hover, aside:hover {
+	background-color: white;
+}
+}
+
+main{
+	14px/1.5 "Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header a:link, a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+header a:hover{
+	color: grey;
+}
+
+article, aside{
+	float: left;
+	margin: 1.5% 1.5%;
+	width: 40%;
+	background-color: whitesmoke;
+}
+
+article.table{
+	border: 1px solid grey;
+	border-width: 1px 0;
+	clear: both;
+	width: 100%;
+}
+
+article header{
+	font-weight: bold;
+	border-top: 5px;
+}
+
+
+
+.aside-header{
+	font-weight: bold;
+}
+
+footer{
+	clear: both;
+}

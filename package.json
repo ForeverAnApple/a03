@@ -15,11 +15,11 @@
         "nodemailer-mailgun-transport": "latest",
         "nconf": "latest"
     },
-    "author": "Denise Case",
-    "homepage": "https://github.com/profcase/a03",
+    "author": "Daiwei Chen",
+    "homepage": "https://github.com/ForeverAnApple/a03",
     "repository": {
         "type": "git",
-        "url": "https://github.com/profcase/a03"
+        "url": "https://github.com/ForeverAnApple/a03"
     },
     "license": "Apache-2.0"
 }
