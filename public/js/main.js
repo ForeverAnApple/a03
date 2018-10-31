@@ -5,4 +5,5 @@ async function bong() {
         $("#cat").attr("src", "img/bongo1.png");
         console.log("Finished BONG!");
     }, 250);
+    return 0;
 }

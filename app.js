@@ -58,6 +58,10 @@ app.get("/contact", function (req, res) {
  res.render("contact.ejs")
 })
 
+app.get("/test", function (req, res) {
+	res.render("/test/test")
+})
+
 // 5 http POST /contact
 app.post("/contact", function (req, res) {
  const name = req.body.inputname;
